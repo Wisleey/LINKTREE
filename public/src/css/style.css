@@ -108,7 +108,7 @@ body {
   height: 100vh;
   object-fit: cover;
   z-index: -2;
-  pointer-events: none; /* evita que clique afete o vídeo */
+  pointer-events: none; /* evita interações no mobile */
 }
 
 h1 {
