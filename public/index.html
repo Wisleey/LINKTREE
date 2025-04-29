@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev | Wisley Rodrigues</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Icon Page -->
+    <link rel="icon" href="src/img/link.webp" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-wtL+5wA1Pb6CPu5wIQXICyEmA9zTfj6tNWqJ++ivWS1U0uSlWZ9W2TzDk8SgAgC6iBJEYm1J+XrRZt+U6iNK9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Style Page -->
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/animate-on-scroll.css" />
+
+    <!-- Script JavaScript -->
+    <script src="src/js/animate-on-scroll.js" defer></script>
+    <script src="src/js/script.js" defer></script>
+    <script src="src/js/neve.js" defer></script>
+  </head>
+
+  <body>
+    <div class="overlay"></div>
+    <div class="snow-container"></div>
+    <div class="container">
+      <video autoplay muted loop class="video-background">
+        <source src="./src/img/178559-860270619.mp4" type="video/mp4" />
+        Seu navegador não suporta vídeo em background.
+      </video>
+      <div>
+        <div class="photo-container">
+          <img id="photo" src="" alt="" />
+        </div>
+      </div>
+      <h1>• Dev | FullStack •</h1>
+
+      <h2>Wisley Rodrigues</h2>
+
+      <h3>Focado em impacto real</h3>
+
+      <div>
+        <div data-aos="zoom-in" data-aos-duration="1500">
+          <a href="https://portifolio-v2-zeta.vercel.app/" target="_blank">
+            <button class="btn animate from-left" id="portfolio">
+              <i class="fas fa-laptop-code"></i> Portfolio
+            </button>
+          </a>
+        </div>
+
+        <div data-aos="zoom-in" data-aos-duration="1500">
+          <a href="https://www.instagram.com/wisley_uai/" target="_blank">
+            <button class="btn animate from-left" id="instagram">
+              <i class="fab fa-instagram"></i> Instagram
+            </button>
+          </a>
+        </div>
+
+        <div data-aos="zoom-in" data-aos-duration="1500">
+          <a href="https://www.linkedin.com/in/wisleey" target="_blank">
+            <button class="btn animate from-right" id="linkedin">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </button>
+          </a>
+        </div>
+
+        <div data-aos="zoom-in" data-aos-duration="1500">
+          <a href="https://github.com/Wisleey" target="_blank">
+            <button class="btn animate from-left" id="github">
+              <i class="fab fa-github"></i> GitHub
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="music-player">
+        <div class="veigh">
+            <audio
+            id="musica"
+            src="./src/audio/Talamanca x Be Someone x Aiguilhe (Schillist Mashup).mp3"
+            
+            controls
+            loop
+          ></audio>
+        </div>
+        <div class="music-controls">
+          <button class="circle-button" id="playButton" title="Tocar música">
+            <i class="fas fa-play"></i>
+          </button>
+
+          <button class="circle-button" id="pauseButton" title="Pausar música">
+            <i class="fas fa-pause"></i>
+          </button>
+        </div>
+    </div>
+
+    <footer>
+      <div data-aos="zoom-in" data-aos-duration="1600">
+        <p>Project Made By <a class="author">Wisley Rodrigues</a></p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
